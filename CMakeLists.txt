@@ -30,6 +30,8 @@ elseif(CMAKE_C_COMPILER_ID MATCHES "MSVC")
     add_definitions("/W4")
 endif()
 
+add_subdirectory("src")
+
 message("
 --------------------------------
 ${CMAKE_PROJECT_NAME} BUILD SUMMARY:
